@@ -1,0 +1,55 @@
+body {
+  font-family: Arial;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.done { background: #22c55e; }
+.notdone { background: #ef4444; }
+
+.stats {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 20px;
+  gap: 5px;
+}
+
+.day {
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 6px;
+}
+
+.green { color: #22c55e; }
+.red { color: #ef4444; }
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+}
